@@ -1,159 +1,320 @@
-/* Mobile (max-width: 600px) */
-@media screen and (max-width: 600px) {
-  .navBar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-  }
 
-  .btn-primary {
-    width: 180px;
-    height: 50px;
-    font-size: 16px;
-    padding: 0;
-  }
+@media (max-width: 1024px) {
+    /* Header */
+    header {
+        padding: 1rem 2rem;
+    }
 
-  .heroDiv {
-    margin: 100px 10px;
-    text-align: center;
-  }
+    .logo {
+        font-size: 1.5rem;
+    }
 
-  .heroText h2 {
-    font-size: 28px;
-    margin-top: 16px;
-  }
+    .resume-btn {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
 
-  .heroText p {
-    font-size: 14px;
-    margin: 12px 0;
-  }
+    /* Hero Section */
+    .container {
+        padding: 40px 100px; 
+    }
 
-  .queryCard {
-    flex-direction: column-reverse;
-    margin: 0 10px;
-    align-items: center;
-    gap: 24px;
-  }
+    .img {
+        height: 200px;
+        width: 200px;
+    }
 
-  .queryHead h2 {
-    font-size: 24px;
-  }
+    .container h2 {
+        font-size: 2rem;
+    }
 
-  .queryHead p {
-    font-size: 14px;
-    margin: 0 10px;
-  }
+    .container p {
+        font-size: 0.9rem;
+        max-width: 500px;
+    }
 
-  .queryImage img {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
+    /* Why Web Development Section */
+    .head h2 {
+        font-size: 28px;
+    }
 
-  .queryCardText {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-  }
+    .head p {
+        font-size: 14px;
+        max-width: 700px;
+    }
 
-  .iframeBox {
-    height: 320px;
-    padding: 22px;
-  }
+    .card {
+        flex-direction: column;
+        padding: 80px 30px; 
+        text-align: center;
+    }
 
-  .inspirationSection > div > h2 {
-    font-size: 24px;
-  }
+    .text {
+        align-items: center;
+    }
 
-  .inspirationSection > div > p {
-    font-size: 14px;
-  }
+    .code-img {
+        max-width: 80%; 
+        height: auto;
+        margin-top: 30px; 
+    }
 
-  .footer {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 12px;
-    padding: 20px;
-  }
+    /* Inspiration Section */
+    .inspiration h2 {
+        font-size: 2rem;
+    }
 
-  .footer .heading h2 {
-    font-size: 16px;
-    margin: 20px 0;
-  }
+    .video-wrapper {
+        height: 450px; 
+        padding: 20px;
+    }
 
-  .cardDiv {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    /* Card Skill Section */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px; 
+    }
 
-  .card {
-    width: 280px;
-    height: auto;
-    margin: 10px;
-  }
+    .card-icons {
+        width: 80%; 
+        max-width: 364px; 
+        padding: 30px;
+        align-items: center; 
+        text-align: center;
+    }
 
-  .targetSection h2 {
-    font-size: 24px;
-    text-align: center;
-  }
+    .card-icons .icons {
+        margin-bottom: 15px;
+    }
+
+    .card-icons h2 {
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
 }
 
-/* Tablet (601px - 1024px) */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-  .heroDiv {
-    margin: 100px 20px;
-    text-align: center;
-  }
+/* Mobile devices */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column; 
+        padding: 1rem;
+        gap: 15px;
+    }
 
-  .heroText h2 {
-    font-size: 32px;
-  }
+    .resume-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
 
-  .queryCard {
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 0 20px;
-  }
+    /* Hero Section */
+    .container {
+        padding: 30px 20px; 
+    }
 
-  .queryImage img {
-    width: 300px;
-  }
+    .img {
+        height: 180px;
+        width: 180px;
+    }
 
-  .iframeBox {
-    height: 420px;
-  }
+    .container h2 {
+        font-size: 1.8rem;
+    }
 
-  .footer .heading h2 {
-    font-size: 18px;
-    text-align: center;
-  }
+    .container p {
+        font-size: 0.85rem;
+    }
 
-  .cardDiv {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    .btn-connect {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
 
-  .card {
-    width: 280px;
-    height: auto;
-    margin: 10px;
-  }
+    /* Why Web Development Section */
+    .head h2 {
+        font-size: 24px;
+    }
+
+    .head p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .card {
+        padding: 50px 20px;
+    }
+
+    .text > div > h2 {
+        font-size: 20px;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .card-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+        width: auto;
+    }
+
+    .code-img {
+        max-width: 90%;
+    }
+
+    /* Inspiration Section */
+    .inspiration h2 {
+        font-size: 1.8rem;
+    }
+
+    .inspiration p {
+        font-size: 0.9rem;
+    }
+
+    .video-wrapper {
+        height: 300px; 
+        padding: 15px;
+    }
+
+    /* Card Skill Section */
+    .card-skill > div > h2 {
+        font-size: 28px;
+    }
+
+    .card-skill > div > p {
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        padding: 0 10px;
+    }
+
+    .card-icons {
+        width: 90%;
+        padding: 25px;
+    }
+
+    
+
+    /* Footer */
+    .heading h2 {
+        font-size: 16px;
+    }
+
+    .links img {
+        width: 30px;
+    }
 }
 
-/* Small Desktop (1025px - 1260px) */
-@media screen and (min-width: 1025px) and (max-width: 1260px) {
-  .cardDiv {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+/* Smaller mobile devices */
+@media (max-width: 480px) {
+    /* Header */
+    header {
+        padding: 0.8rem;
+    }
 
-  .card {
-    width: 300px;
-    height: auto;
-    margin: 10px;
-  }
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .resume-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    /* Hero Section */
+    .container {
+        padding: 20px 15px;
+    }
+
+    .img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .container p {
+        font-size: 0.8rem;
+    }
+
+    .btn-connect {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    /* Why Web Development Section */
+    .head h2 {
+        font-size: 20px;
+    }
+
+    .head p {
+        font-size: 12px;
+    }
+
+    .card {
+        padding: 40px 15px;
+    }
+
+    .text > div > h2 {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 0.8rem;
+    }
+
+    .card-btn {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    /* Inspiration Section */
+    .inspiration h2 {
+        font-size: 1.5rem;
+    }
+
+    .inspiration p {
+        font-size: 0.8rem;
+    }
+
+    .video-wrapper {
+        height: 200px; 
+        padding: 10px;
+    }
+
+    /* Card Skill Section */
+    .card-skill > div > h2 {
+        font-size: 24px;
+    }
+
+    .card-skill > div > p {
+        font-size: 0.8rem;
+    }
+
+    .card-icons {
+        width: 95%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .heading h2 {
+        font-size: 14px;
+    }
+
+    .links img {
+        width: 28px;
+    }
 }
